@@ -71,6 +71,7 @@
 
 /* Soluzione */
 
+/* ok */
 .ex-1-square{
     transition: all 2s;
 } 
@@ -79,25 +80,26 @@
     background-color: red;
 }
     
-
+/* ok */
 .ex-2-square{
-    transition: all 2s;
+    transition: all 4s;
 } 
 
-.ex-2-square:hover{
-    width: 300%;
-    height: 300%;
+.ex-2-square:active{
+    width: 500px;
+    height: 300px;
 }
     
-
+/* ok */
 .ex-3-square{
-    transition: all 2s;
+    transition: all 4s;
 } 
 
 .ex-3-square:hover{
-    border-radius: 100;
+    border-radius: 100%;
 }
-    
+
+/* ok */
 .ex-4-square{
     transition: all 2s;
 } 
@@ -107,43 +109,55 @@
 }
     
 .ex-5-square{
-    transition: all 2s;
+    transition: all 5s;
 } 
 
+/* ok */
 .ex-5-square:hover{
-    background-color: red;
+    width: 300px;
+    height: 300px;
 }
-    
-.ex-6-square{
+
+.ex-5-square:active{
+    width: 1px;
+    height: 1px;
+}
+   
+/* ok */
+.ex-6-img{
+    transition: all 0s;
+} 
+
+.ex-6-img:hover{
+    filter: grayscale(1);
+}
+/* ok */
+.ex-7-img{
     transition: all 2s;
 } 
 
-.ex-6-square:hover{
-    background-color: red;
+.ex-7-img:hover{
+    filter: invert(1) blur(5px);
+
 }
-    
-.ex-7-square{
+/* ok   */
+.ex-8-img{
+    transition: all 3s;
+} 
+
+.ex-8-img:hover{
+    border-radius: 100% 100% 10% 10%;
+    filter: hue-rotate(1turn) drop-shadow(0 0 0.75rem rgb(83, 220, 20));;
+}
+/* ok  */
+.ex-9-img{
     transition: all 2s;
 } 
 
-.ex-7-square:hover{
-    background-color: red;
-}
-    
-.ex-8-square{
-    transition: all 2s;
-} 
-
-.ex-8-square:hover{
-    background-color: red;
-}
-    
-.ex-9-square{
-    transition: all 2s;
-} 
-
-.ex-9-square:hover{
-    background-color: red;
+.ex-9-img:hover{
+    border-radius: 20% ;
+    transform: scale(2);
+    filter:
 }
     
 .ex-10-square{
